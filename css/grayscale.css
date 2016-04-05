@@ -403,11 +403,11 @@ g#showB path:hover{
 }
 */
 
-.intro{
+/*.intro{
      background-color: #fff;
      -webkit-animation: random1 5s infinite;
      animation: random1 5s infinite;
-} 
+} */
 rect{
      fill: #fff;
      -webkit-animation: random 5s infinite;
@@ -416,14 +416,14 @@ rect{
 
 
 
-
+/*
  @keyframes random1{
     15% { background-color: red; } 
     30% { background-color: yellow; } 
     45% { background-color: green; } 
     60% { background-color: blue; }
     75% { background-color: white; } 
-} 
+} */
 @keyframes random{
     15% { fill: red; } 
     30% { fill: yellow; } 
