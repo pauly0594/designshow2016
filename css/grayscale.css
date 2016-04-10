@@ -46,7 +46,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color:rgba(0, 0, 255, 0.39);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -274,6 +274,7 @@ a:focus {
     -o-background-size: cover;
 }
 
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -318,17 +319,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid:rgba(0, 0, 255, 0.39);
+    color:rgba(0, 0, 255, 0.39);
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid:rgba(0, 0, 255, 0.39);
     outline: 0;
     color: #A7A9AC;
-    background-color: #42dca3;
+    background-color:rgba(0, 0, 255, 0.39);
 }
 
 ul.banner-social-buttons {
@@ -354,7 +355,10 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
+    background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;
+    background-color: #A7A9AC;
+
 }
 
 footer p {
@@ -393,7 +397,7 @@ svg {
   height:window.innerHeight;
 }
 
-
+/*
 g#designB path:hover, g#icB path:hover,
 g#showB path:hover{
   fill:yellow;
@@ -401,7 +405,36 @@ g#showB path:hover{
  g#iTB path:hover, g#gaTB path:hover{
   fill:yellow;
 }
+*/
 
+/*.intro{
+     background-color: #fff;
+     -webkit-animation: random1 5s infinite;
+     animation: random1 5s infinite;
+} */
+rect{
+     fill: #fff;
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
+} 
+
+
+
+/*
+ @keyframes random1{
+    15% { background-color: red; } 
+    30% { background-color: yellow; } 
+    45% { background-color: green; } 
+    60% { background-color: blue; }
+    75% { background-color: white; } 
+} */
+@keyframes random{
+    15% { fill: red; } 
+    30% { fill: yellow; } 
+    45% { fill: green; } 
+    60% { fill: blue; }
+    75% { fill: white; } 
+}
 
 
 
