@@ -37,6 +37,8 @@ p {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -355,8 +357,8 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 25px 0;
-    background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;
+    padding: 10px 0;
+    /*background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;*/
     background-color: #A7A9AC;
 
 }
