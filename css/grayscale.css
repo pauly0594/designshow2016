@@ -421,7 +421,7 @@ g#showB{
 }
 @keyframes random1{
     35% { fill: red; }  
-    45% { fill: #000; } 
+    45% { fill: #A7A9AC; } 
     60% { fill: blue; }
     75% { fill: white; } 
 }
