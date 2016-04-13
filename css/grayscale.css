@@ -18,9 +18,6 @@ html {
 }
 
 h1,
-h2,
-h3,
-h4,
 h5,
 h6 {
     margin: 0 0 35px;
@@ -30,14 +27,56 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#00fff0;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#000;
+
+}
+
+h4 {
+    color:#fff;
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 35px;
+    letter-spacing:0px;
+    line-height: 43px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+p {
+    color:#fff;
+    margin: 0 0 25px;
+    font-size: 32px;
+    letter-spacing:0px;
+    line-height: 8px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.pups {
+    color:#000;
+    margin: 0 0 25px;
+    font-size: 12px;
+
     line-height: 1.5;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.blue {
+    font-size: 35px;
+    letter-spacing:0px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
+    color:#00fff0;
+}
 
 @media(min-width:768px) {
     p {
@@ -48,7 +87,7 @@ p {
 }
 
 a {
-    color:rgba(0, 0, 255, 0.39);
+    color:#ff0000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -57,10 +96,11 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #0000FF;
 }
 
 .light {
+    color:#ff0000;
     font-weight: 400;
 }
 
@@ -69,7 +109,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #A7A9AC;
+    background-color: none;
 }
 
 .navbar-custom .navbar-brand {
@@ -103,7 +143,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color:#ff0000;
     background-color: transparent;
 }
 
@@ -139,7 +179,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #A7A9AC;
+        background: #fff;
     }
 }
 
@@ -261,15 +301,17 @@ a:focus {
 }
 
 .content-section {
+    margin-top: -100px;
     padding-top: 100px;
 }
 
 .about-section {
     width: 100%;
-    padding: 50px 0;
+    height:500px;
+    padding: 85px 0;
     color: #0000ff;
     background: url(../img/designshow1.jpg) no-repeat center center scroll;
-    background-color: #A7A9AC;
+    background-color: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -279,7 +321,9 @@ a:focus {
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    height:300px;
+    margin-top:-150px;
+    padding: 0px 0;
     color: #0000FF;
     background: url(../img/designshow2.jpg) no-repeat center center scroll;
     background-color: #A7A9AC;
@@ -357,9 +401,9 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 10px 0;
-    /*background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;*/
-    background-color: #A7A9AC;
+    padding: 35px 0;
+    background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;
+    background-color: none;
 
 }
 
@@ -399,33 +443,44 @@ svg {
   height:window.innerHeight;
 }
 
-
-
-
-g#designB{
-    fill: #fff;
-     -webkit-animation: random 5s infinite;
-     animation: random 5s infinite
+/*
+g#designB path:hover, g#icB path:hover,
+g#showB path:hover{
+  fill:yellow;
 }
-g#showB{
-    fill: #fff;
+ g#iTB path:hover, g#gaTB path:hover{
+  fill:yellow;
+}
+*/
+
+/*.intro{
+     background-color: #fff;
      -webkit-animation: random1 5s infinite;
-     animation: random1 5s infinite
-}
+     animation: random1 5s infinite;
+} */
+rect{
+     fill: #fff;
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
+} 
 
+
+
+/*
+ @keyframes random1{
+    15% { background-color: red; } 
+    30% { background-color: yellow; } 
+    45% { background-color: green; } 
+    60% { background-color: blue; }
+    75% { background-color: white; } 
+} */
 @keyframes random{
-    35% { fill: red; }  
-    45% { fill: #000; } 
+    15% { fill: red; } 
+    30% { fill: yellow; } 
+    45% { fill: green; } 
     60% { fill: blue; }
     75% { fill: white; } 
 }
-@keyframes random1{
-    35% { fill: red; }  
-    45% { fill: #A7A9AC; } 
-    60% { fill: blue; }
-    75% { fill: white; } 
-}
-
 
 
 
