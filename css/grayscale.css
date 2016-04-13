@@ -443,44 +443,40 @@ svg {
   height:window.innerHeight;
 }
 
-/*
-g#designB path:hover, g#icB path:hover,
-g#showB path:hover{
-  fill:yellow;
-}
- g#iTB path:hover, g#gaTB path:hover{
-  fill:yellow;
-}
-*/
 
-/*.intro{
+
+
+
+
+svg{
      background-color: #fff;
      -webkit-animation: random1 5s infinite;
      animation: random1 5s infinite;
-} */
-rect{
-     fill: #fff;
-     -webkit-animation: random 5s infinite;
-     animation: random 5s infinite;
 } 
 
 
+g#designB{
+    fill: #fff;
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite
+}
+g#showB{
+    fill: #fff;
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite
+}
 
-/*
- @keyframes random1{
-    15% { background-color: red; } 
-    30% { background-color: yellow; } 
-    45% { background-color: green; } 
-    60% { background-color: blue; }
-    75% { background-color: white; } 
-} */
+
+
 @keyframes random{
-    15% { fill: red; } 
-    30% { fill: yellow; } 
-    45% { fill: green; } 
+    35% { fill: red; }  
+    45% { fill: #A7A9AC; } 
     60% { fill: blue; }
     75% { fill: white; } 
 }
+
+
+
 
 
 
