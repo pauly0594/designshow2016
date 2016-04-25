@@ -18,6 +18,10 @@ html {
 }
 
 h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
@@ -29,110 +33,26 @@ h2,h5{
     color:#ff0000;
 }
 
-<<<<<<< HEAD
 p{
-=======
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color:#00fff0;
-}
-
-h3 {
-    font-size: 40px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color:#000;
-
-}
-
-h4 {
-    color:#0018ff;
     margin: 0 0 25px;
-    font-size: 40px;
-    letter-spacing:0px;
-    line-height: 55px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
-}
-
-h5 {
-
-    color:#0018ff;
-    margin: 0 0 25px;
-    font-size: 30px;
-    letter-spacing:0px;
-    line-height: 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-
-@media(min-width:300px) {
-    h4 {
-    color:#0018ff;
-    margin: 0 0 25px;
-    font-size: 40px;
-    letter-spacing:0px;
-    line-height: 55px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
-    }
-}
-
-
-p {
-    color:#0018ff;
->>>>>>> origin/gh-pages
-    margin: 0 0 25px;
-    font-size: 25px;
-    letter-spacing:0px;
-    line-height: 30px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.pups {
-    color:#000;
-    margin: 0 0 25px;
-    font-size: 12px;
-
+    font-size: 18px;
     line-height: 1.5;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.blue {
-    font-size: 35px;
-    letter-spacing:0px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
-    color:#00fff0;
-}
 
 @media(min-width:768px) {
-<<<<<<< HEAD
     p  {
         margin: 0 0 35px;
         font-size: 50px;
         letter-spacing: 0px;
         line-height: 60px;
-=======
-    p {
-    color:#0018ff;
-    margin: 0 0 25px;
-    font-size: 40px;
-    letter-spacing:0px;
-    line-height: 50px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
->>>>>>> origin/gh-pages
     }
 }
 
 a {
-<<<<<<< HEAD
     color:rgb(0, 0, 255);
-=======
-    color:#ff0000;
->>>>>>> origin/gh-pages
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -141,15 +61,10 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-<<<<<<< HEAD
     color: #ff0000;
-=======
-    color: #0000FF;
->>>>>>> origin/gh-pages
 }
 
 .light {
-    color:#ff0000;
     font-weight: 400;
 }
 
@@ -158,11 +73,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-<<<<<<< HEAD
     background-color: rgba(167,169,172,.36);
-=======
-    background-color: none;
->>>>>>> origin/gh-pages
 }
 
 .navbar-custom .navbar-brand {
@@ -196,7 +107,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color:#ff0000;
+    color: rgba(255,255,255,.8);
     background-color: transparent;
 }
 
@@ -232,11 +143,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-<<<<<<< HEAD
         background:rgba(167,169,172,.36);
-=======
-        background: #fff;
->>>>>>> origin/gh-pages
     }
 }
 
@@ -244,7 +151,6 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    margin-top:100px;
     padding: 100px 0;
     text-align: center;
     color: #0000FF;
@@ -359,22 +265,15 @@ a:focus {
 }
 
 .content-section {
-    width:100%;
-    margin-top: -100px;
     padding-top: 100px;
 }
 
 .about-section {
     width: 100%;
-    height:500px;
+    padding: 50px 0;
     color: #0000ff;
-<<<<<<< HEAD
 /*    background: url(../img/designshow1.jpg) no-repeat center center scroll;
 */    /*background-color: #A7A9AC;*/
-=======
-    background: url() no-repeat center center scroll;
-    background-color: none;
->>>>>>> origin/gh-pages
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -384,25 +283,15 @@ a:focus {
 
 .download-section {
     width: 100%;
-<<<<<<< HEAD
     padding: 50px 0;
     color: #0000FF;
 /*    background: url(../img/designshow2.jpg) no-repeat center center scroll;
 */    /*background-color: #A7A9AC;*/
-=======
-    height:300px;
-    margin-top:-110px;
-    padding: 0px 0;
-    color: #ff0000;
-    background: url() no-repeat center center scroll;
-    background-color: ;
->>>>>>> origin/gh-pages
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
 
 #map {
     width: 100%;
@@ -436,32 +325,18 @@ a:focus {
 }
 
 .btn-default {
-<<<<<<< HEAD
 border: 1px solid;
 border-color: #0018ff;
 color: #ff0000;
 background-color: transparent;
-=======
-    border: 1px solid;
-    border-color:#0018ff;
-    color:#ff0000;
-    background-color: transparent;
->>>>>>> origin/gh-pages
 }
 
 .btn-default:hover,
 .btn-default:focus {
-<<<<<<< HEAD
    border: 1px solid;
 border-color: #ff0000;
 color: #0018ff;
 background-color: transparent;
-=======
-    border: 1px solid;
-    border-color:#ff0000;
-    color: #0018ff;
-    background-color:transparent;
->>>>>>> origin/gh-pages
 }
 
 ul.banner-social-buttons {
@@ -487,15 +362,9 @@ ul.banner-social-buttons {
 }
 
 footer {
-<<<<<<< HEAD
     padding: 10px 0;
     /*background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;*/
  /*   background-color: #A7A9AC;*/
-=======
-    padding: 35px 0;
-    background: url(../img/saicaiga_logo.svg) no-repeat center center scroll;
-    background-color: none;
->>>>>>> origin/gh-pages
 
 }
 
@@ -538,15 +407,6 @@ svg {
 
 
 
-
-
-svg{
-     background-color: #fff;
-     -webkit-animation: random1 5s infinite;
-     animation: random1 5s infinite;
-} 
-
-
 g#designB{
     fill: #fff;
      -webkit-animation: random 5s infinite;
@@ -554,13 +414,17 @@ g#designB{
 }
 g#showB{
     fill: #fff;
-     -webkit-animation: random 5s infinite;
-     animation: random 5s infinite
+     -webkit-animation: random1 5s infinite;
+     animation: random1 5s infinite
 }
 
-
-
 @keyframes random{
+    35% { fill: red; }  
+    45% { fill: #000; } 
+    60% { fill: blue; }
+    75% { fill: white; } 
+}
+@keyframes random1{
     35% { fill: red; }  
     45% { fill: #A7A9AC; } 
     60% { fill: blue; }
@@ -584,6 +448,4 @@ td {
     letter-spacing: 1px;
 
 }
-
-
 
